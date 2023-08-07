@@ -1,0 +1,123 @@
+h1,
+h2 {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+div {
+  display: block;
+}
+
+body {
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+  padding-top: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.nav {
+  color: #00b39b;
+  text-decoration: none;
+  padding: 0 0.6em;
+}
+
+.image {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.postion1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  margin: 30px;
+}
+
+.postion2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 100px auto;
+  height: 400px;
+  width: 70%;
+  overflow: unset;
+}
+
+.box1 {
+  border: solid #00b39b;
+  border-radius: 20px;
+  height: 400px;
+  background-color: #00b39b;
+  color: antiquewhite;
+}
+
+.box2 {
+  border: solid #3d83df;
+  border-radius: 20px;
+  height: 400px;
+  background: #3d83df;
+  color: antiquewhite;
+  font: size 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.box3 {
+  border-radius: 20px;
+  border: solid #1b2734;
+  height: 400px;
+  background: #1b2734;
+  color: antiquewhite;
+}
+
+.postion3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.brands__logos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  gap: 20PX;
+}
+
+.size {
+  font-size: small;
+}
+li {
+  list-style-type: none;
+}
+
+
+.photom{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap:30PX;
+width: 1200px;
+
+
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
